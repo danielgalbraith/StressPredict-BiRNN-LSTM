@@ -1,6 +1,6 @@
 # StressPredict-BiRNN-LSTM
 
-Multi-class classification via bi-directional recurrent neural network with LSTM layers and a 1D convolution for predicting sentence stress annotation. Trained on data from US Presidential Inaugural Addresses with gold-standard human annotations. Uses Keras Sequential model in Python 3.
+Multi-class classification via bi-directional recurrent neural network with LSTM layers and a 1D convolution. Predicts sentence stress annotations, trained on data from US Presidential Inaugural Addresses with gold-standard corpus. Uses Keras Sequential model in Python 3.
 
 * **Input features**: Word embedding matrices from training texts and pre-trained GloVe 100-dimensional word vectors (GloVe vectors not uploaded, see https://nlp.stanford.edu/projects/glove/ for download).
 * **Output**: 7 possible annotations {0,1,...,6}, representing relative stress prominence.
